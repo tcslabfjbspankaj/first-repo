@@ -4,7 +4,7 @@ on:
    push:
       branches:
       - main
- jobs:
+jobs:
     hello:
       name: print hello # jobs name
       runs-on: ubuntu-latest # the github
